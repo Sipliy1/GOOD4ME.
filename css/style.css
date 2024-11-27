@@ -34,7 +34,7 @@ a {
     line-height: 24px;
 }
 .reklama {
-    background-image: url('/img/back.png');
+      background-image: url('../img/back.png');
     height: 671px;
     background-size: cover;
 }
