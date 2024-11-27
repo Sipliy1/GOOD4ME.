@@ -1,0 +1,83 @@
+:root {
+    --background-color1:#F6623E;
+    --color1: #454545;
+    --color2: #F6623E;
+    --border1: 1px solid #F6623E;
+}
+body {
+    font-family: Jost;
+    font-size: 16px;
+}
+.profile {
+    background: var(--background-color1);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.porifile p {
+    font-weight: 400;
+    line-height: 20px;
+}
+.navbar input[type=submit] {
+    background: url(../img/search.png) no-repeat;
+    background-size: cover;
+    border: none;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+.navbar a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.reklama {
+    position: relative;
+}
+.reklama_img1 {
+    position: absolute;
+    max-width: 100%; 
+    height: 641px;      
+    object-fit: cover;
+    z-index: 0;          
+}
+.reklama  {
+    height: 671px;
+}
+.reklama .row {
+    position: absolute;
+    z-index: 1;
+}
+.reklama .row .itd_p{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.reklama .row .itd_p h4 {
+    color: var(--color2);
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 42px;
+}
+.reklama .row .itd_p h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;   
+}
+.reklama.row .itd_p p {
+    font-weight: 400;
+    line-height: 29px;
+}
+.reklama  .row .itd_p .itd_btn {
+    background-color: var(--background-color1);
+    color: white;
+    width: 140px;
+} 
+.line {
+    width: 127px;
+    height: 4px;
+    background-color: var(--color2);
+    margin: 15px auto 30px;
+}
