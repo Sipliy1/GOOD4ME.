@@ -36,6 +36,8 @@ a {
 }
 .reklama {
     background-image: url('../img/back.png');
+    background-position-x: calc(100% - 0px);
+    background-repeat: no-repeat;
     /* background-position-left: -200px; */
     height: 671px;
     background-size: cover;
@@ -97,7 +99,7 @@ a {
     flex-direction: column;
 }
 .deal img {
-    height: 395px;
+    max-height: 395px;
 }
 .deal h4 {
     margin-top: 20px;
@@ -121,8 +123,11 @@ a {
     font-weight: 400;
 }
 .cotrol .left {
-    padding-left: 50px;
     background-color: #FFF8F6;
+}
+.cotrol .text_left {
+    max-width: 515px;
+
 }
 .cotrol h2{
     font-size: 50px;
@@ -146,6 +151,9 @@ a {
     font-weight: 500;
     line-height: 25px;
     color: #000000;
+}
+.cotrol .center img {
+    max-height: 329px;
 }
 .arrials {
     margin: 100px 0;
@@ -240,6 +248,7 @@ a {
     line-height: 20px;
     font-weight: 400;
     margin-right: 10px;
+    margin-bottom: 0;
 }
 .shops .p_zach {
     color: #828181;
@@ -299,5 +308,81 @@ a {
     line-height: 32px;
 }
 .collage img {
-    /* height: 318px; */
+    max-height: 260px;
 }
+.footer {
+    background: #FFF8F6;
+}
+.footer .top {
+    padding:50px 0;
+}
+.footer .top p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--color3);
+    text-align: center;
+}
+.footer h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+.footer form div {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+.footer form .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.footer form div input[type=email] {
+    background: none;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer form div input[type=submit] {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: var(--color2);
+}
+.footer h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.footer a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    text-decoration: none;
+    color: var(--color3);
+}
+.footer .down {
+   border-top: 1px solid #828181;
+}
+.footer .down p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer .down .center {
+    color: var(--color2);
+}
+.footer .down .col_left img {
+    max-width: 10px;
+    max-height: 15px;
+    margin: 0px 5px;
+}
+  
+  
+  
