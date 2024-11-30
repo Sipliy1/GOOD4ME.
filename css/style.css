@@ -38,8 +38,6 @@ a {
     background-image: url('../img/back.png');
     background-position-x: calc(100% - 0px);
     background-repeat: no-repeat;
-    /* background-position-left: -200px; */
-    height: 671px;
     background-size: cover;
 }
 .reklama >.container{
@@ -310,13 +308,13 @@ a {
 .collage img {
     max-height: 260px;
 }
-.footer {
+footer {
     background: #FFF8F6;
 }
-.footer .top {
+footer .top {
     padding:50px 0;
 }
-.footer .top p {
+footer .top p {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
@@ -324,22 +322,22 @@ a {
     color: var(--color3);
     text-align: center;
 }
-.footer h2 {
+footer h2 {
     font-size: 26px;
     font-weight: 500;
     line-height: 26px;
     text-align: center;
 }
-.footer form div {
+footer form div {
     border-bottom: 2px solid black;
     margin-bottom: 20px;
 }
-.footer form .search {
+footer form .search {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-.footer form div input[type=email] {
+footer form div input[type=email] {
     background: none;
     padding-left: 10px;
     width: 100%;
@@ -348,37 +346,37 @@ a {
     font-weight: 400;
     line-height: 26px;
 }
-.footer form div input[type=submit] {
+footer form div input[type=submit] {
     border: none;
     cursor: pointer;
     background: none;
     color: var(--color2);
 }
-.footer h3 {
+footer h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
 }
-.footer a {
+footer a {
     font-size: 16px;
     font-weight: 400;
     line-height: 33px;
     text-decoration: none;
     color: var(--color3);
 }
-.footer .down {
+footer .down {
    border-top: 1px solid #828181;
 }
-.footer .down p {
+footer .down p {
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-.footer .down .center {
+footer .down .center {
     color: var(--color2);
 }
-.footer .down .col_left img {
+footer .down .col_left img {
     max-width: 10px;
     max-height: 15px;
     margin: 0px 5px;
